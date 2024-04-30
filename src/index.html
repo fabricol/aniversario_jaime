@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 <body>
     <header class="hero">
@@ -37,8 +38,8 @@
             </div>
         </div>
     </header>
-    <section class="event">
-        <div class="container">
+    <section class="event event--frontend" >
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">Front-End</h2>
                 <p class="event__details__description">
@@ -48,6 +49,40 @@
             <img class="event__image" src="./images/frontend.png" alt="frontend">
         </div>
     </section>
+    <section class="event event--backend event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">BackEnd</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores, beatae, autem sed hic quia repellat alias eius laborum totam est sit voluptatum. Libero nam ex a! Nemo, eveniet similique.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="frontend">
+        </div>
+    </section>
+    <section class="event event--ux-ui" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">UI UX</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores, beatae, autem sed hic quia repellat alias eius laborum totam est sit voluptatum. Libero nam ex a! Nemo, eveniet similique.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="frontend">
+        </div>
+    </section>
+    <section class="event event--datascience event--image-left">
+        <div class="container"  data-aos="fade-left" >
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores, beatae, autem sed hic quia repellat alias eius laborum totam est sit voluptatum. Libero nam ex a! Nemo, eveniet similique.
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="frontend">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script/main.js"></script>
 </body>
 </html>
