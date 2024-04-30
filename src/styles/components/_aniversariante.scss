@@ -1,0 +1,12 @@
+.aniversariante {
+    padding: 24px;
+    background-color: #000;
+    &__text{
+        text-align: center;
+        padding-bottom: 24px;
+    }
+    &__image {
+        margin: 0 auto;
+        display: flex;
+    }
+}
