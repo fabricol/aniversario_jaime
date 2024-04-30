@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     &__infos {
+        display: flex;
         gap: 40px;
 
         &__item {
